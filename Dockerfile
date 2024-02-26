@@ -24,4 +24,4 @@ RUN chmod 777 /bin/dumb-init /bin/grive \
 
 VOLUME /data
 WORKDIR /data
-ENTRYPOINT ["dumb-init", "grive"]
+ENTRYPOINT ["dumb-init", "grive", "-u"]
